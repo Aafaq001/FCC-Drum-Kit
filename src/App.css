@@ -55,3 +55,28 @@ align-items: center;
   background-color: #222222;
   border-radius: 10px;
 }
+@media only screen and (max-width: 768px) {
+.display-main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+} 
+.drum-pad{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 80px;
+  margin:10px 0 0 10px;
+}
+.keyDiv{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#display{
+margin: auto;
+margin-top: 20px;
+}
+}
